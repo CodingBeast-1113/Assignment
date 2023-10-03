@@ -6,7 +6,7 @@
 
 .main-container{
     background-color: rgba(230, 228, 228, 0.864);
-    height: 69vh;
+    height: 450px;
     width: 70%;
     margin: auto;
     overflow-y: scroll;
@@ -79,7 +79,7 @@ h4{
     justify-content: center;
     background-color: blueviolet;
     height: 40px;
-    margin-top: -17px;
+    margin-top: -54px;
     width: 147vh;
     position: fixed;
 }
