@@ -6,16 +6,14 @@
 
 .main-container{
     background-color: rgba(230, 228, 228, 0.864);
-    height: 450px;
-    width: 70%;
-    margin:70px auto;
-    overflow-y: scroll;
+    height: 80vh;
+    width: 100%;
 }
 
 .top-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    position: relative;
 }
 
 .left-container{
@@ -23,7 +21,7 @@
     height: 450px;
     border-radius: 10px;
     outline: none;
-    width: 30vw;
+    width: 40vw;
     flex-direction: column;
     background-color: white;
     overflow-y: scroll;
@@ -34,16 +32,18 @@
 .labels{
     display: flex;
     margin-top: 10px;
+    margin-left: 10px;
     flex-direction: column;
 }
 
 input{
     padding: 10px;
-    width: 27vw;
+    width: 35vw;
+    margin:5px;
 }
 
 .heading{
-    margin-left:17px;
+    margin-left:147px;
     padding:15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: blue;
@@ -58,7 +58,7 @@ span{
     height: 450px;
     border-radius: 10px;
     outline: none;
-    width: 30vw;
+    width: 40vw;
     flex-direction: column;
     background-color: white;
     overflow-y: scroll;
@@ -79,8 +79,7 @@ h4{
     justify-content: center;
     background-color: blueviolet;
     height: 40px;
-    margin-top: -54px;
-    width: 147vh;
+    width: 100vw;
     position: fixed;
 }
 
@@ -90,7 +89,42 @@ h4{
     width: 200px;
     height: 30px;
     margin-top: 5px;
-    margin-left: 700px;
+    margin-left: 70%;
     background-color: bisque;
+}
+
+@media only screen and (max-width:1287px){
+
+    .main-container{
+        overflow-y: scroll;
+    }
+    .top-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .left-container{
+        margin: auto;
+        width: 80vw;
+    }
+
+    input{
+        width: 70vw;
+    }
+
+    .heading{
+        margin-left: 17px;
+    }
+
+    .right-container{
+        margin-top: 10px;
+        width: 80vw;
+        margin:10px auto;
+    }
+
+    .bottom-container{
+        margin: auto;
+    }
+
 }
 
