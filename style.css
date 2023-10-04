@@ -81,7 +81,7 @@ h4{
     background-color: blueviolet;
     height: 40px;
     width: 100%;
-    bottom: -100px;
+    bottom: 0px;
 }
 
 .bottom-container button{
